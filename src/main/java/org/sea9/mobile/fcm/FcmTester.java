@@ -40,7 +40,10 @@ public class FcmTester {
 		String token = "";
 
 		Message message = Message.builder()
-			.putData("json", "{'id':-1,'name':'e-Golf','parking':'Parking','floor':'5','lot':'25','current':'false'}")
+			.putData("name", "e-Golf")
+			.putData("parking", "Parking")
+			.putData("floor", "3")
+			.putData("lot", "30")
 			.setToken(token)
 			.build();
 
